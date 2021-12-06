@@ -44,7 +44,9 @@ public class StudentList {
 				String fd = dateFormat.format(d);
 				s.write(", " + t + "\nList last updated on " + fd);
 				s.close();
-			} catch (Exception e) {}
+			} catch (Exception e) {
+
+			}
 
 			System.out.println("Data Loaded.");
 		} else if (args[0].contains("?")) {
@@ -63,7 +65,9 @@ public class StudentList {
 						done = true;
 					}
 				}
-			} catch (Exception e) {}
+			} catch (Exception e) {
+
+			}
 			System.out.println("Data Loaded.");
 		} else if (args[0].contains("c")) {
 			System.out.println("Loading data ...");
@@ -86,7 +90,9 @@ public class StudentList {
 					}
 				}
 				System.out.println(count + " word(s) found " + a.length);
-			} catch (Exception e) {}
+			} catch (Exception e) {
+				
+			}
 			System.out.println("Data Loaded.");
 		}
 	}
